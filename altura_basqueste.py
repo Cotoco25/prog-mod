@@ -14,9 +14,11 @@ print(nome)
 
 if altura > 2.10:
     print("Muito altooooooooooo!!!")
-
-if altura <=2.10:
-    print("Muito Baixoooooooooo!!!")
+else:
+    if altura >1.97:
+        print("Altinho")
+    else:
+        print("Anãooooooooooooooooooooo")
 
 print(time)
 print("-----------------------------------")
