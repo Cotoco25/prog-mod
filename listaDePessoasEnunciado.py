@@ -15,7 +15,7 @@ Created on Wed May 20 20:33:17 2026
 #(string no formato dd/mm/aaaa)
 
 
-# A) Escreva uma função que receba uma função (exibeFormatado) que 
+# A) Escreva uma função  (exibeFormatado) que 
 # receba uma lista de pessoas como a descrita e para cada pessoa na lista 
 # exiba em uma linha o nome da pessoa no formato UltimoNome, PrimeiroNome 
 # seguido da data de nascimento com o mês por extenso.
