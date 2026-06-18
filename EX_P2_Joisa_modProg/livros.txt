@@ -1,0 +1,5 @@
+O MAR;1979;ficcao;75.50
+CURA;2000;auto-ajuda;50.20
+MATEMATICA;2010;nao-ficcao;120
+SONHOS;2005;ficcao;100
+DEUSES;1993;ficcao;100
