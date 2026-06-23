@@ -28,8 +28,6 @@ def criaListaMaioresNotas():
     arq.close()
     return listaFinal     
 
-lista = criaListaMaioresNotas()
-
 def exibeCursos(lista):
     for coisa in lista:
         print(f'==== Curso:{coisa[0]} - Nota Maxima: {coisa[1]} ===')
@@ -38,6 +36,18 @@ def exibeCursos(lista):
             print(f'---> {coisanova}')
         print()
 
+def escreveArq(nome, lista):
+    arq = open(nome, 'w')
+    for item in lista:
+        arq.write(f'{item[0]}, {item[1]}\n')
+        for i in item[2]:
+            arq.write(f'{i},')
+        arq.write('\n')
+    arq.close()
+
+
+lista = criaListaMaioresNotas()
 print(criaListaMaioresNotas())
 print()
 exibeCursos(lista)
+escreveArq('arquivoPronto.txt', lista)
